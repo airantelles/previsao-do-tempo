@@ -55,7 +55,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gem for communication with the openweather api
-gem 'open-weather', '~> 0.11.0'
+gem 'open-weather-ruby-client'
 
 # Gem for communication with the twitter api
 gem 'twitter', '~> 6.2'
+
+# Gem of debbuger rails
+gem 'pry'
+
+gem 'rack-cors'
